@@ -1,3 +1,22 @@
+import type { Metadata } from "next";
+import "./globals.css"; // <--- ESTA LÍNEA ES LA QUE ACTIVA TODO
+
+export const metadata: Metadata = {
+  title: "Imperio | Agencia de Influencers",
+  description: "Dominando el algoritmo",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="es">
+      <body>{children}</body>
+    </html>
+  );
+}
 import './globals.css'
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
