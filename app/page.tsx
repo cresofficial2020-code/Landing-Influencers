@@ -1,3 +1,12 @@
+"use client";
+import React from 'react';
+// ... tus otros imports
+
+export default function Page() { // <--- La 'P' debe ser mayúscula
+  return (
+    // ... tu código
+  );
+}
 export default function Page() {
   return (
     <div style={{ backgroundColor: '#0a0a0a', color: 'white', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontFamily: 'sans-serif' }}>
